@@ -1,0 +1,12 @@
+{
+  "name": "JavaScript Object Composition Testing",
+  "description": "An example of how to test JavaScript objects that instantiate other objects.",
+  "scripts": {
+    "start": "open testRunner.html"
+  },
+  "dependencies": {
+    "javascript": "ES6",
+    "jasmine": "2.5.2"
+  },
+  "license": "MIT"
+}
