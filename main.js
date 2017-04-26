@@ -14,7 +14,7 @@ class Band {
     this.bassist = this.createBassist()
   }
 
-  // factory function
+  // factory function (will be stubbed out in test)
   createBassist() {
     return new Bassist()
   }

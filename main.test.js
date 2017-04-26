@@ -2,7 +2,7 @@ describe('Band', () => {
   let band, createBassistSpy, bassistSpy
 
   beforeEach(() => {
-    // setup spies
+    // setup spies and stub createBassist method
     bassistSpy = jasmine.createSpyObj('bassist', ['shred', 'quit', 'otherSickMethod'])
     createBassistSpy = spyOn(Band.prototype, 'createBassist')
       .and.returnValue(bassistSpy)
